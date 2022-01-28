@@ -38,9 +38,9 @@ The theme should work with Trilium version 0.49.5.
 Distraction-free mode
 ---------------------
 
-Linen has an optional distraction-free (zen) mode, which hides the launcher pane, the left pane, the note tabs and the window controls. To keep any of those elements, go to the bottom of the CSS page and comment out or delete the relevant section.  The ribbon and the new split button are still visible by default, but you can uncomment the two relevant sections in the CSS file to have only the content visible on the screen.
+Linen has an optional distraction-free (zen) mode, which hides the launcher pane, the left pane, the note tabs and the window controls at the click of a button or using a keyboard shortcut. To keep any of those elements, go to the bottom of the CSS page and comment out or delete the relevant section.  The ribbon and the new split button are still visible by default, but you can uncomment the two relevant sections in the CSS file to have only the content visible on the screen.
 
-This works only if you create the button to activate zen-mode. To create the button:
+This works **only** if you create the button to activate zen-mode. To create the button:
 
 1.  Create a new note,  type JS Frontend
 2.  Add the following code:
