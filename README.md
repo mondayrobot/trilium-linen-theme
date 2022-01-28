@@ -56,10 +56,10 @@ This works **only** if you create the button to activate zen-mode. To create the
 ```
 3. Add the attribute #run=frontendStartup 
 4. (optional) Change the icon to whatever make sense to you. The same with the shortcut (I used Alt+Z for instance, because it makes more sense mnemonically, but it is already used by the app for opening a note in an external editor, so I had to change that shortcut in Options.)
+5. !Important! - zen mode can be toggled off only with the keyboard shortcut.
 
-Thank you …
+Thank you
 -----------
 
-… Zadam, for creating this marvelous note-taking tool and for advice on how to implement zen-mode here (and also thanks to … for asking).
-
-.. … from whom I borrowed liberally for the grid mode…
+* Zadam, for creating this marvelous note-taking tool and for advice on how to implement zen-mode [here](https://github.com/zadam/trilium/issues/2572#issuecomment-1014906331) (and also thanks to en3r0 for creating the issue).
+* Bert010 from whom I borrowed liberally for the grid mode and the display of images in his beautiful [cleantype theme](https://github.com/bert010/trilium-theme).
