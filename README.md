@@ -40,7 +40,7 @@ Distraction-free mode
 
 Linen has an optional distraction-free (zen) mode, which hides the launcher pane, the left pane, the note tabs and the window controls at the click of a button or using a keyboard shortcut. To keep any of those elements, go to the bottom of the CSS page and comment out or delete the relevant section.  The ribbon and the new split button are still visible by default, but you can uncomment the two relevant sections in the CSS file to have only the content visible on the screen.
 
-This works **only** if you create the button to activate zen-mode. To create the button:
+This works **only** if you create the button to activate distraction free mode. To create the button:
 
 1.  Create a new note,  type JS Frontend
 2.  Add the following code:
@@ -62,4 +62,4 @@ Thank you
 -----------
 
 * Zadam, for creating this marvelous note-taking tool and for advice on how to implement zen-mode [here](https://github.com/zadam/trilium/issues/2572#issuecomment-1014906331) (and also thanks to en3r0 for creating the issue).
-* Bert010 from whom I borrowed liberally for the grid mode and the display of images in his beautiful [cleantype theme](https://github.com/bert010/trilium-theme).
+* Bert010 for his beautiful [cleantype theme](https://github.com/bert010/trilium-theme), from which I borrowed liberally on the grid mode and the display of images.
