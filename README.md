@@ -20,7 +20,7 @@ Screenshots
 Disclaimer
 ----------
 
-My CSS-fu is rusty and so the theme is a little hacky. Please create an issue if you encounter any bugs, I will try to solve them.
+My CSS-fu is rusty. Please create an issue if you encounter any bugs, I will try to solve them asap.
 
 Usage
 -----
