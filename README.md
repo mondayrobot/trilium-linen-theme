@@ -20,7 +20,7 @@ Screenshots
 Disclaimer
 ----------
 
-My CSS-fu is rusty. Please create an issue if you encounter any bugs, I will try to solve them asap.
+My CSS-fu is really rusty. Please create an issue if you encounter any bugs, I will do my best to solve them.
 
 Usage
 -----
@@ -51,15 +51,15 @@ This works **only** if you create the button to activate distraction free mode. 
         action: function() {
              $("body").toggleClass("zen-mode");
         },
-        shortcut: 'alt+f'
+        shortcut: 'alt+t'
     }); 
 ```
-3. Add the attribute #run=frontendStartup 
-4. (optional) Change the icon to whatever make sense to you. The same with the shortcut (I used Alt+Z for instance, because it makes more sense mnemonically, but it is already used by the app for opening a note in an external editor, so I had to change that shortcut in Options.)
-5. !Important! - zen mode can be toggled off only with the keyboard shortcut.
+3. Add the attribute `#run=frontendStartup` 
+4. (optional) Change the icon to whatever make sense to you. The same with the keyboard shortcut (I used Alt+Z for instance, because it makes more sense mnemonically, but it is already used by the app for opening a note in an external editor, so I had to change that shortcut in Options.)
+5. **!Important!** - zen mode can be toggled off only with the keyboard shortcut.
 
 Thank you
 -----------
 
 * Zadam, for creating this marvelous note-taking tool and for advice on how to implement zen-mode [here](https://github.com/zadam/trilium/issues/2572#issuecomment-1014906331) (and also thanks to en3r0 for creating the issue).
-* Bert010 for his beautiful [cleantype theme](https://github.com/bert010/trilium-theme), from which I borrowed liberally on the grid mode and the display of images.
+* Bert010 for his beautiful [cleantype theme](https://github.com/bert010/trilium-theme), from which I borrowed liberally for the grid mode and the display of images.
