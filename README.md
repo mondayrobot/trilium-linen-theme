@@ -4,7 +4,7 @@ Linen is a minimal, airy light theme for Trilium with an optional distraction-fr
 Design principles
 -----------------
 
-Partly inspired by Edward Tufte's [visual style](https://edwardtufte.github.io/tufte-css/),  Linen is guided by the following choices:
+Partly inspired by Edward Tufte's [visual style](https://edwardtufte.github.io/tufte-css/), Linen is guided by the following choices:
 
 *   Using white space and the proximity principle to focus on the content and make the interface less cluttered. 
 *   Muted, slightly off-white backgrounds to avoid an aggresive contrast, but trying to keep text, links and selected notes distinct.
