@@ -62,4 +62,4 @@ Thank you
 -----------
 
 * Zadam, for creating this marvelous note-taking tool and for advice on how to implement zen-mode [here](https://github.com/zadam/trilium/issues/2572#issuecomment-1014906331) (and also thanks to en3r0 for creating the issue).
-* Bert010 for his beautiful [cleantype theme](https://github.com/bert010/trilium-theme), from which I borrowed liberally for the grid mode and the display of images.
+* Bert010 for his beautiful [cleantype theme](https://github.com/bert010/trilium-theme), from which I borrowed liberally on how images are displayed.
