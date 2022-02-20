@@ -14,8 +14,14 @@ Partly inspired by Edward Tufte's [visual style](https://edwardtufte.github.io/t
 
 Screenshots
 -----------
+A note:
+![note](Screenshots/trilium-linen-theme-note.png)
 
-…
+A note with images:
+![image grid](Screenshots/trilium-linen-theme-image-grid.png)
+
+Zen mode:
+![note](Screenshots/trilium-linen-theme-zen-mode.png)
 
 Disclaimer
 ----------
