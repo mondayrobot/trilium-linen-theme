@@ -14,7 +14,6 @@ Partly inspired by Edward Tufte's [visual style](https://edwardtufte.github.io/t
 
 Screenshots
 -----------
-A note:
 ![note](Screenshots/trilium-linen-theme-note.png)
 
 A note with images:
