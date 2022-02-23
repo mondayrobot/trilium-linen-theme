@@ -1,0 +1,216 @@
+
+@font-face {
+	font-family: 'Crimson Pro';
+	font-style: normal;
+    font-weight: 400;
+	src: url('/custom/fonts/CrimsonPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+    font-weight: 400;
+	src: url('/custom/fonts/RobotoCondensed-Regular.woff2') format('woff2');
+}
+
+
+:root {
+ 
+    --theme-style: light;
+
+    --main-font-family: 'Roboto Condensed';
+    --main-font-size: 90%;
+
+    --tree-font-family: 'Roboto Condensed';
+    --tree-font-size: 90%;
+
+    --detail-font-family: 'Crimson Pro';
+    --detail-font-size: 150%;
+
+    --monospace-font-family: 'Cousine';
+    --monospace-font-size: 80%;
+
+    --main-background-color: #fffff8;
+    --main-text-color: #111111;
+    --main-border-color: black;
+
+    --accented-background-color: #fff;
+    --more-accented-background-color: #b6ac9a;
+
+    --button-background-color: transparent;
+    --button-disabled-background-color: #ddd;
+    --button-border-color: #ddd;
+    --button-text-color: #666;
+    --button-border-radius: 3px;
+
+    --primary-button-background-color: #6c757d;
+    --primary-button-text-color: white;
+    --primary-button-border-color: #6c757d;
+
+    --muted-text-color: #666;
+
+    --input-text-color: black;
+    --input-background-color: transparent;
+
+    --hover-item-text-color: black;
+    --hover-item-background-color: #d5cfb9;
+
+    --active-item-text-color: black;
+    --active-item-background-color: #e6ccac;
+
+    --menu-text-color: black;
+    --menu-background-color: white;
+
+    --modal-background-color: white;
+    --modal-backdrop-color: black;
+
+    --left-pane-background-color: #f2f2f2;
+    --left-pane-text-color: #737373;
+
+    --launcher-pane-background-color: #f2f2f2;
+    --launcher-pane-text-color: #666;
+
+    --launcher-pane-text-size: 90%;
+
+    --active-tab-background-color: #e6ccac;
+    --active-tab-text-color: black;
+      
+    --inactive-tab-background-color: #f2f2f2;
+    --inactive-tab-text-color: #999;
+
+    --scrollbar-border-color: #ddd;
+    --tooltip-background-color: #f8f8f8;
+    --link-color: #C70039;
+
+    --mermaid-theme: default;
+}
+
+
+
+/**** Tabs ****/
+.tab-row-widget .note-tab .note-tab-title {
+    text-align: center;
+}
+.tab-row-widget .note-tab .note-tab-wrapper
+{  
+       border-radius:20px !important;
+}
+
+.tab-row-widget {padding: 5px; height:60px;}
+
+.note-tab-close {color: #666;}
+
+.ribbon-tab-container {color: #666;}
+
+
+/**** Note titles ****/
+
+.title-row {margin:30px 0px 5px 0px;}
+.note-title {font-family: 'Crimson Pro';
+             font-size: 280%;
+             font-weight: bold;
+}
+
+
+
+
+/**** Notecards styling ****/
+.note-list.grid-view .note-book-card {
+    flex-basis: 200px;
+    max-height: 300px;
+    max-width:240px;
+    border: 1px solid #black !important;
+    background-color: #ffffff;
+    border-radius: 5px !important;
+    border: 1px solid #D3D3D3 !important;
+    padding: 10px;
+    margin: 8px;
+    border-bottom: 20px solid transparent!important; 
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.05); 
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.05);
+}
+
+
+
+.grid-view h5 {
+    color: #000;
+    font-size: 0.9em!important;
+    font-weight: normal!important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    max-width: 190px;float:left;margin-left:-6px;
+    margin-top:-0px;
+    padding-bottom: 12px;
+    font-weight: 600!important;
+}
+
+.grid-view .rendered-note-attributes {
+    font-size: 0.9em!important;
+    font-weight: normal!important;
+
+}
+
+.note-list-container img {
+    width: 100%;
+}
+
+
+
+.note-detail-relation-map {
+    height: 100%;
+    overflow: hidden !important;
+    position: relative;
+}
+
+
+.note-detail {
+    padding-top: 20px !important;
+}
+
+/**** Backlinks widget ****/
+.backlinks-ticker {
+    top: 0px !important;
+    border-radius: 20px !important;
+    background-color: #f2f2f2 !important;
+    text-align: center !important;
+    color: #999;
+}
+
+.backlinks-count {
+        text-align: center !important;
+}
+
+
+/**** Zen mode - you need to create a button to toggle it on/off!! ****/
+
+.zen-mode #launcher-pane {
+    display:none !important; 
+   }
+
+.zen-mode #left-pane {
+    display:none !important; 
+   }
+
+.zen-mode .tab-row-widget {
+    visibility:hidden !important; 
+   }
+
+.zen-mode .title-bar-buttons {
+    visibility:hidden !important; 
+   }
+
+/***** Uncomment to hide the ribbon in zen mode ****/
+/*
+.zen-mode .ribbon-container {
+        display:none !important; 
+}
+*/
+
+/****** Uncomment to hide the split panel button in zen mode *****/
+
+/*.zen-mode .title-row .button-widget {
+        display:none !important; 
+}
+*/
