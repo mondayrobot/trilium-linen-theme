@@ -26,7 +26,7 @@ Zen mode:
 Disclaimer
 ----------
 
-My CSS-fu is rusty. Please create an issue if you encounter any bugs, I will do my best to solve them.
+I'm a CSS amateur. Please create an issue if you encounter any problems, I will do my best to solve them.
 
 Usage
 -----
